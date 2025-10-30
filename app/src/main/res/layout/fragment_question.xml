@@ -10,6 +10,26 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:text="What is the Capital of Colombia?" />
+
+        <ListView
+            android:id="@+id/questionListView"
+            android:layout_width="match_parent"
+            android:layout_height="496dp" />
+
+        <Button
+            android:id="@+id/questionSubmitButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
     </LinearLayout>
+
+
 
 </FrameLayout>
